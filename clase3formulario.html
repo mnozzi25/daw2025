@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>Encuesta sobre la serie "Adolescencia"</title>
+</head>
+<body>
+  <h1>Encuesta: Opinión sobre la serie "Adolescencia"</h1>
+
+  <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br>
+
+    <label for="fecha">Fecha de nacimiento:</label><br>
+    <input type="date" id="fecha" name="fecha" required><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <p>¿Cómo calificarías la serie?</p>
+    <input type="radio" id="excelente" name="calificacion" value="Excelente" required>
+    <label for="excelente">Excelente</label>
+    <input type="radio" id="buena" name="calificacion" value="Buena">
+    <label for="buena">Buena</label>
+    <input type="radio" id="regular" name="calificacion" value="Regular">
+    <label for="regular">Regular</label>
+    <input type="radio" id="mala" name="calificacion" value="Mala">
+    <label for="mala">Mala</label><br><br>
+
+    <label for="opinion">Opinión sobre el impacto de la serie:</label><br>
+    <textarea id="opinion" name="opinion" rows="4" cols="40" required></textarea><br>
+
+    <input type="checkbox" id="suscripcion" name="suscripcion" required>
+    <label for="suscripcion">Mantente al día con las últimas noticias.</label><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+  </form>
+</body>
+</html>
