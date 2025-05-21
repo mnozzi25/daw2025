@@ -16,3 +16,5 @@
 # CLASE 05
 ## Noticia de la Clase 4 + css aplicando media query y box model
 
+# CLASE 06
+## Portada diario + flexbox
