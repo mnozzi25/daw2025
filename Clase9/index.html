@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clase 9 - Mariano Nozzi - DAW 2025</title>
+  <link rel="stylesheet" href="CSS/normalize.css" />
+  <link rel="stylesheet" href="CSS/estilos.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>DAW NOTICIAS</h1>
+      <div class="fecha">6 de Junio de 2025</div>
+    </header>
+
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Noticias</a>
+      <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+      <section class="formulario-container" novalidate>
+        <h2>Formulario de Suscripción</h2>
+        <form id="formularioSuscripcion">
+          <div class="columna">
+            <label>Nombre completo
+              <input type="text" id="nombreCompleto" />
+              <span class="error" id="errorNombreCompleto"></span>
+            </label>
+            <label>Email
+              <input type="email" id="email" />
+              <span class="error" id="errorEmail"></span>
+            </label>
+            <label>Contraseña
+              <input type="password" id="password" />
+              <span class="error" id="errorPassword"></span>
+            </label>
+            <label>Repetir contraseña
+              <input type="password" id="repetirPassword" />
+              <span class="error" id="errorRepetirPassword"></span>
+            </label>
+            <label>Edad
+              <input type="number" id="edad" />
+              <span class="error" id="errorEdad"></span>
+            </label>
+          </div>
+          <div class="columna">
+            <label>Teléfono
+              <input type="text" id="telefono" />
+              <span class="error" id="errorTelefono"></span>
+            </label>
+            <label>Dirección
+              <input type="text" id="direccion" />
+              <span class="error" id="errorDireccion"></span>
+            </label>
+            <label>Ciudad
+              <input type="text" id="ciudad" />
+              <span class="error" id="errorCiudad"></span>
+            </label>
+            <label>Código Postal
+              <input type="text" id="codigoPostal" />
+              <span class="error" id="errorCodigoPostal"></span>
+            </label>
+            <label>DNI
+              <input type="text" id="dni" />
+              <span class="error" id="errorDni"></span>
+            </label>
+          </div>
+          <div class="boton-enviar">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>DAW NOTICIAS 2025</p>
+    </footer>
+  </div>
+  <script src="JS/validacion.js"></script>
+</body>
+</html>
